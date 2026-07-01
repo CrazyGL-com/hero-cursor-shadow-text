@@ -1,0 +1,141 @@
+{
+	"name": "Cursor Shadow Text",
+	"slug": "cursor-shadow-text",
+	"version": 1,
+	"description": "The heading casts a real drop shadow whose direction tracks the cursor \u2014 like a single fixed light moving across the room.",
+	"dependencies": [],
+	"authorName": "@ybouane",
+	"authorUrl": "https://x.com/ybouane",
+	"tags": [
+		"shadow",
+		"cursor",
+		"typography"
+	],
+	"category": "Typography",
+	"featured": false,
+	"dateCreated": 1781222400000,
+	"poster": "/images/heroes/cursor-shadow-text.png",
+	"install": {
+		"package": "@crazygl/hero-cursor-shadow-text"
+	},
+	"config": {
+		"managedWidth": true,
+		"innerWidth": 1200,
+		"managedHeight": true,
+		"defaultHeight": 720,
+		"styleInheritance": "none",
+		"usesCanvas": false,
+		"usesWebGL": false,
+		"usesThree": false,
+		"pointerTracking": true,
+		"resizeTracking": true,
+		"scrollTracking": false,
+		"supportsImages": false,
+		"supportsTransparency": true,
+		"interactive": true,
+		"supportsFontCustomization": true,
+		"interactivityModes": [
+			"pointer"
+		],
+		"interactivity": "pointer"
+	},
+	"customizer": {
+		"sections": [
+			{
+				"label": "Content",
+				"fields": [
+					{
+						"id": "heading",
+						"label": "Heading",
+						"type": "text",
+						"default": "follow the light"
+					}
+				]
+			},
+			{
+				"label": "Shadow",
+				"fields": [
+					{
+						"id": "shadowColor",
+						"label": "Shadow colour",
+						"type": "color",
+						"default": "#5b8def"
+					},
+					{
+						"id": "maxOffset",
+						"label": "Max offset (px)",
+						"type": "slider",
+						"default": 40,
+						"min": 4,
+						"max": 120,
+						"step": 1,
+						"unit": "px"
+					},
+					{
+						"id": "blur",
+						"label": "Shadow blur (px)",
+						"type": "slider",
+						"default": 12,
+						"min": 0,
+						"max": 40,
+						"step": 1,
+						"unit": "px"
+					}
+				]
+			},
+			{
+				"label": "Typography",
+				"fields": [
+					{
+						"id": "textColor",
+						"label": "Text colour",
+						"type": "color",
+						"default": "#ffffff"
+					},
+					{
+						"id": "fontSize",
+						"label": "Font size",
+						"type": "slider",
+						"default": 160,
+						"min": 32,
+						"max": 300,
+						"step": 1,
+						"unit": "px"
+					},
+					{
+						"id": "headingFontFamily",
+						"label": "Font",
+						"type": "font",
+						"default": "Inter"
+					},
+					{
+						"id": "headingFontWeight",
+						"label": "Weight",
+						"type": "slider",
+						"default": 800,
+						"min": 100,
+						"max": 900,
+						"step": 100
+					}
+				]
+			},
+			{
+				"label": "Backdrop",
+				"fields": [
+					{
+						"id": "transparentBackground",
+						"label": "Transparent background",
+						"type": "toggle",
+						"default": false
+					},
+					{
+						"id": "bgColor",
+						"label": "Background",
+						"type": "color",
+						"default": "#0a0c14"
+					}
+				]
+			}
+		]
+	}
+}

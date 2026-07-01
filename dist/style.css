@@ -1,0 +1,2 @@
+crazygl-hero[data-crazygl="cursor-shadow-text"] crazygl-content { position: absolute; inset: 0; z-index: 1; display: grid; place-items: center; padding: 24px; }
+crazygl-hero[data-crazygl="cursor-shadow-text"] .crazygl-cst-h { line-height: 1; letter-spacing: -0.04em; text-align: center; transition: text-shadow 80ms ease-out; will-change: text-shadow; }
