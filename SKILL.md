@@ -3,7 +3,7 @@ name: cursor-shadow-text
 description: "The heading casts a real drop shadow whose direction tracks the cursor — like a single fixed light moving across the room."
 metadata:
   author: "@ybouane"
-  version: "0.1.0"
+  version: "0.1.1"
 ---
 
 ## How To Use This Skill
